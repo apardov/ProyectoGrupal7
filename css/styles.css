@@ -1,0 +1,51 @@
+.tableContainer {
+  margin: 10px;
+}
+
+#salesTable_wrapper {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#salesTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#salesTable tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+#salesTable_info {
+  margin-top: 10px;
+}
+
+#salesTable_paginate {
+  margin-top: 10px;
+}
+
+.dt-buttons {
+  margin-bottom: 10px;
+}
+
+#salesTable th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  text-align: center;
+}
+
+#salesTable {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+#salesTable td {
+  padding: 8px;
+  text-align: center;
+}
+
+#salesTable_info,
+#salesTable_paginate {
+  font-size: 14px;
+}
